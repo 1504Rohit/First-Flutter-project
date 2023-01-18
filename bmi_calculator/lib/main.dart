@@ -95,7 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   var metersquare = meter*meter;
 
                   var bmi= wt/metersquare;
-                  Result="The BMI of the given input is $bmi";
+                  Result="Your BMI is $bmi";
 
                   setState(() {
                   
@@ -122,6 +122,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           SizedBox(height: 20,),
           Text("$Result",style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold,color: Colors.blue),),
+          AnimatedContainer(duration: )
         ],
       ),
         ),
